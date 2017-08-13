@@ -1,0 +1,48 @@
+{
+	"type":"Live2D Model Setting",
+	"model":"Ylia02.moc",
+	"textures":[
+		"Ylia02.2048/texture_00.png"
+	],
+	"physics":"physics.json",
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_REF.PT_HEAD"},
+		{"name":"body", "id":"D_REF.PT_BODY"},
+		{"name":"breast", "id":"D_REF.PT_BREAST"},
+		{"name":"face", "id":"D_REF.PT_FACE"}
+	],
+	"motions":{
+		"idle":
+		[
+			{"file":"motions/ylia_03.mtn","sound":"sounds/idle2.wav","fade_in":0,"fade_out":0},
+			{"file":"motions/ylia_06.mtn","sound":"sounds/idle1.wav","fade_in":0,"fade_out":0},
+			{"file":"motions/ylia_07.mtn","sound":"sounds/idle4.wav","fade_in":0,"fade_out":0},
+			{"file":"motions/ylia_08.mtn","sound":"sounds/idle3.wav","fade_in":0,"fade_out":0},
+			{"file":"motions/ylia_15.mtn","sound":"sounds/dance.wav","fade_in":0,"fade_out":0}
+		],
+		"tap_body":
+		[
+			{"file":"motions/ylia_13.mtn","sound":"sounds/body2.wav","fade_in":0,"fade_out":0},
+			{"file":"motions/ylia_14.mtn","sound":"sounds/body1.wav","fade_in":0,"fade_out":0}
+		],
+		"tap_breast":
+		[
+			{"file":"motions/ylia_04.mtn","sound":"sounds/breast2.wav","fade_in":0,"fade_out":0},
+			{"file":"motions/ylia_05.mtn","sound":"sounds/breast1.wav","fade_in":0,"fade_out":0}
+		],
+		"tap_face":
+		[
+			{"file":"motions/ylia_12.mtn","sound":"sounds/face.wav","fade_in":0,"fade_out":0}
+		],
+		"tap_head":
+		[
+			{"file":"motions/ylia_09.mtn","sound":"sounds/head2.wav","fade_in":0,"fade_out":0},
+			{"file":"motions/ylia_10.mtn","sound":"sounds/head1.wav","fade_in":0,"fade_out":0}
+		],
+		"tap_hello":
+		[
+			{"file":"motions/ylia_01.mtn","sound":"sounds/hello.wav","fade_in":0,"fade_out":0}
+		]
+	}
+}
