@@ -1,8 +1,8 @@
 {
 	"type":"Live2D Model Setting",
-	"model":"Ylia02.moc",
+	"model":"ylia02.moc",
 	"textures":[
-		"Ylia02.2048/texture_00.png"
+		"ylia02.2048/texture_00.png"
 	],
 	"physics":"physics.json",
 	"hit_areas":
